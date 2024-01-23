@@ -1,0 +1,15 @@
+{
+    "rules": {
+        "eqeqeq": "warn",
+        "quotes": "warn",
+        "semi": "warn",
+        "arrow-parens": "off",
+        "arrow-spacing": "off",
+        "no-empty": "warn",
+        "no-console": "error",
+        "comma-style": "warn"
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    }
+}

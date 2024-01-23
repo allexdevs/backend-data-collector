@@ -1,20 +1,12 @@
-const express = require('express');
-const cors = require('cors');
-const port = process.env.PORT || 3000;
+var express = require("express");
+var cors = require("cors");
 
-const app = express();
+var app = express();
 
 app.use(express.json());
 app.use(cors({
-    origin: '*'
+    origin: "*"
 }));
 
-app.get('/', (req, res) => {
-    res.json({
-        message: 'Hello World!',
-    });
-})
 
-app.listen(port, () => {
-    console.log(`Servidor rodando na porta ${port}`);
-});
+module.exports = app;
